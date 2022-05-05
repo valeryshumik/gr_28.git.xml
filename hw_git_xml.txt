@@ -35,9 +35,9 @@ git clone и вставили ссылку HTTPS
                                                                        4)<xml>
                                                                               <skills>"knowledge of test documentation,GitHub,Postman,SQL"</skills>
                                                                          
-32. Сделать коммит в одну строку:   git commit -am "add preferences.xml  skills.xml" 
+32. Сделать коммит в одну строку: 1)git add .  2)git commit -m "add preferences.xml  skills.xml" 
 
-33. Отправить сразу 2 файла на внеш.репозиторий: git push
+33. Отправить сразу 2 файла на внеш.репозиторий: 1)git pull 2)git push
 
 34. На веб интефейсе создать файл bug_report.xml: 1)add file 2)create new  file bug_report.xml
                                                                                                    
