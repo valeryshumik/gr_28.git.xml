@@ -1,0 +1,59 @@
+
+XML
+
+
+21. Создать внеш. репозиторий с назв. XML: valeryshumik/gr_28.git.xml
+
+22. Клонировать реп.JSON на локальный комп.:   1)в терминале cd gr_28.git.xml 2)находимся в (main) 3)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 4)в GitBash пишем
+
+git clone и вставили ссылку HTTPS
+
+23. Внутри локального JSON созд. файл "new.xml":  touch new.xml
+
+24. Добавить файл под гит.:  1)git status ,файл "new.xml" красного цвета 2)git add new.xml 3)git status,файл "new.xml" зеленый - можно коммитить
+
+25. Закоммитить файл: 1)git commit -m "add new.xml" 2)git status
+
+26. Отправить файл на внешний репозиторий GitHub:  git push
+
+27. Отредактировать содерж.файла "new.xml"- инфо о себе(ФИО,возраст,желаемая з.п.): 1)vim new.xml 2)insert 3)<xml>
+                                                                                                                 <name>"Valery"</name>
+                                                                                                                 <surname>"Shumik"</surname>
+                                                                                                                 <age>43</age>
+                                                                                                                
+
+28. Отправить изменения на внеш. реп. : 1)git commit -am "change new.xml" 2)git push
+
+29. Создать файл "preferences.xml" : touch preferences.xml 
+
+30.Доб.в файл предпочтения 1)vim preferences.xml 2)insert 3) <xml>
+                                                                  <favorite film>"Forest Gump"</favorit film>
+                                                                  <favorite season>"Spring"</favorit film>
+                                                                  <favorite country>"India"</favorit country>
+                                                                                                                            
+31. Создать файл skills.xml и добавить инфу о скиллах в формате JSON : 1)vim skills.xml 2)insert
+                                                                       3)<xml>
+                                                                              <skills>"knowledge of test documentation,GitHub,Postman,SQL"</skills>
+                                                                         
+32. Сделать коммит в одну строку:   git commit -am "add preferences.xml  skills.xml" 
+
+33. Отправить сразу 2 файла на внеш.репозиторий: git push
+
+34. На веб интефейсе создать файл bug_report.xml: 1)add file 2)create new  file bug_report.xml
+                                                                                                   
+                                                                                             
+35.Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit new file 
+
+                                                                                      
+36.На веб интерфейсе модифицировать файл bug_report.xml,добавить баг репорт в формате JSON: 1) bug_report.json 
+                                                                                            2)edit this file <xml>
+                                                                                                                   <bug report>10</bug report>
+                                                                                                                                 
+37.Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit changes
+
+
+
+20.Синхронизировать внешний и локальный репозиторий XML:1) git fetch 2)git pull 3) git push
+
+   
+                                                                                                                  
