@@ -31,8 +31,8 @@ git clone и вставили ссылку HTTPS
                                                                   <favorite season>"Spring"</favorit film>
                                                                   <favorite country>"India"</favorit country>
                                                                                                                             
-31. Создать файл skills.xml и добавить инфу о скиллах в формате JSON : 1)vim skills.xml 2)insert
-                                                                       3)<xml>
+31. Создать файл skills.xml и добавить инфу о скиллах в формате JSON : 1)touch skills.xml 2)vim skills.xml 3)insert
+                                                                       4)<xml>
                                                                               <skills>"knowledge of test documentation,GitHub,Postman,SQL"</skills>
                                                                          
 32. Сделать коммит в одну строку:   git commit -am "add preferences.xml  skills.xml" 
