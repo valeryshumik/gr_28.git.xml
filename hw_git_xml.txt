@@ -4,9 +4,9 @@ XML
 
 21. Создать внеш. репозиторий с назв. XML: valeryshumik/gr_28.git.xml
 
-22. Клонировать реп.JSON на локальный комп.:   1)в терминале cd gr_28.git.xml 2)находимся в (main) 3)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 4)в GitBash пишем
+22. Клонировать реп.JSON на локальный комп.:   1)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 2)в GitBash пишем
 
-git clone и вставили ссылку HTTPS
+git clone и вставили ссылку HTTPS 3)cd gr_28.git.xml 4) находимся в ветке (main)
 
 23. Внутри локального JSON созд. файл "new.xml":  touch new.xml
 
