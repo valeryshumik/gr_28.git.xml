@@ -53,7 +53,7 @@ git clone и вставили ссылку HTTPS
 
 
 
-20.Синхронизировать внешний и локальный репозиторий XML:1) git fetch 2)git pull 3) git push
+38.Синхронизировать внешний и локальный репозиторий XML:1) git fetch 2)git pull 3) git push
 
    
                                                                                                                   
