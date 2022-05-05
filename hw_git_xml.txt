@@ -4,11 +4,11 @@ XML
 
 21. Создать внеш. репозиторий с назв. XML: valeryshumik/gr_28.git.xml
 
-22. Клонировать реп.JSON на локальный комп.:   1)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 2)в GitBash пишем
+22. Клонировать реп. XML  на локальный комп.:   1)зашли в аккаунт GitHub,нажали Code,скопир.ссылку HTTPS 2)в GitBash пишем
 
 git clone и вставили ссылку HTTPS 3)cd gr_28.git.xml 4) находимся в ветке (main)
 
-23. Внутри локального JSON созд. файл "new.xml":  touch new.xml
+23. Внутри локального XML созд. файл "new.xml":  touch new.xml
 
 24. Добавить файл под гит.:  1)git status ,файл "new.xml" красного цвета 2)git add new.xml 3)git status,файл "new.xml" зеленый - можно коммитить
 
@@ -31,7 +31,7 @@ git clone и вставили ссылку HTTPS 3)cd gr_28.git.xml 4) нахо�
                                                                   <favorite season>"Spring"</favorit film>
                                                                   <favorite country>"India"</favorit country>
                                                                                                                             
-31. Создать файл skills.xml и добавить инфу о скиллах в формате JSON : 1)touch skills.xml 2)vim skills.xml 3)insert
+31. Создать файл skills.xml и добавить инфу о скиллах в формате XML: 1)touch skills.xml 2)vim skills.xml 3)insert
                                                                        4)<xml>
                                                                               <skills>"knowledge of test documentation,GitHub,Postman,SQL"</skills>
                                                                          
